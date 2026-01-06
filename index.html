@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templay - Jasa Desain Online</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section class="header" id="beranda">
+      <nav>
+        <div class="overlay" id="overlay"></div>
+
+        <a href="index.html"><img src="img/logo.png" /></a>
+
+        <i class="fa-solid fa-bars-staggered" onclick="openMenu()"></i>
+
+        <div class="nav-link" id="navLink">
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#harga">Harga</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box">
+        <h1>Jasa Desain Profesional</h1>
+        <p>
+          Jasa desain online yang menjamin kepuasan anda dengan harga murah,
+          desain ORI berkelas, <br />proses cepat, ANTI ribet, & garansi 100%
+          uang kembali.
+        </p>
+        <a href="#harga" class="text-btn">Order Sekarang</a>
+      </div>
+    </section>
+    <!-- Layanan -->
+    <section class="layanan scroll-animation" id="layanan">
+      <h1>Layanan Yang Tersedia</h1>
+      <p>Kami menyediakan beberapa layanan yang bisa anda coba</p>
+
+      <div class="row">
+        <div class="layanan-col scale-up delay-1">
+          <div class="layanan-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h3>Paket Basic</h3>
+          <p>Paket Ideal untuk Startup dan UMKM.</p>
+        </div>
+        <div class="layanan-col scale-up delay-2">
+          <div class="layanan-icon">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Paket Premium</h3>
+          <p>Paket bisnis yang ingin tampil profesional</p>
+        </div>
+        <div class="layanan-col scale-up delay-3">
+          <div class="layanan-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3>Paket Express</h3>
+          <p>Paket solusi yang butuh cepat tapi murah</p>
+        </div>
+      </div>
+    </section>
+    <!-- Pilihan -->
+    <section class="pilih scroll-animation">
+      <h1>Kenapa Pilih Kami?</h1>
+
+      <div class="chose">
+        <div class="pilihan-kami scroll-left delay-1">
+          <div class="pilihan-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3>Proses Cepat & Efisien</h3>
+          <p>
+            Kami menghargai waktu kamu. Proses pengerjaan jelas, cepat, dan
+            sesuai timeline tanpa mengurangi kualitas desain.
+          </p>
+        </div>
+        <div class="pilihan-kami scale-up delay-2">
+          <div class="pilihan-icon">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+          <h3>Desain Profesional & Original</h3>
+          <p>
+            Setiap desain dibuat dengan profesional dan dicustom khusus untuk
+            anda.
+          </p>
+        </div>
+        <div class="pilihan-kami scroll-right delay-3">
+          <div class="pilihan-icon">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <h3>Revisi Fleksibel</h3>
+          <p>
+            Kami terbuka terhadap masukan. Tersedia revisi sesuai paket agar
+            hasil desain benar-benar sesuai dengan kebutuhan brand kamu.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Harga -->
+    <section class="harga scroll-animation" id="harga">
+      <h1>Harga Paket</h1>
+      <p>Pilih paket yang sesuai dengan kebutuhan bisnis anda</p>
+
+      <div class="price">
+        <div class="text-harga scale-up delay-1">
+          <div class="harga-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h4>Paket Basic</h4>
+          <p>Rp 50.000</p>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>3 Konsep Desain</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>2x Revisi Gratis</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>File Png & Jpg</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Proses 3-5 Hari</p>
+          </div>
+          <button class="harga-btn" onclick="openOrderForm('Basic', '50.000')">
+            Pilih Paket
+          </button>
+        </div>
+
+        <div class="text-harga scale-up delay-2">
+          <div class="harga-icon">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>Paket Premium</h4>
+          <p>Rp 100.000</p>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>3 Konsep Desain</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>4x Revisi Gratis</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>File Png & Jpg</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Proses 2-4 Hari</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Konsultasi Gratis</p>
+          </div>
+          <button
+            class="harga-btn"
+            onclick="openOrderForm('Premium', '100.000')"
+          >
+            Pilih Paket
+          </button>
+        </div>
+
+        <div class="text-harga scale-up delay-3">
+          <div class="harga-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h4>Paket Express</h4>
+          <p>Rp 150.000</p>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>3 Konsep Desain</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>3x Revisi Gratis</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>File Png & Jpg</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Proses 1-2 Hari</p>
+          </div>
+          <div class="paket-icon">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Konsultasi Gratis</p>
+          </div>
+          <button
+            class="harga-btn"
+            onclick="openOrderForm('Express', '150.000')"
+          >
+            Pilih Paket
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Cta -->
+    <section class="cta fade-in">
+      <h1>Wujudkan Brand Profesional Anda Sekarang</h1>
+      <a href="#harga" class="cta-btn">Order Sekarang</a>
+    </section>
+    <!-- Popup Form Order - UPGRADED VERSION -->
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup-form">
+        <div class="popup-header">
+          <h2><i class="fa-solid fa-clipboard-list"></i> Form Pemesanan</h2>
+          <i class="fa-solid fa-xmark" onclick="closeOrderForm()"></i>
+        </div>
+
+        <div class="popup-body">
+          <!-- Order Number Display -->
+          <div class="order-number-display">
+            <i class="fa-solid fa-receipt"></i>
+            <div>
+              <span class="order-label">Nomor Pesanan</span>
+              <span class="order-number" id="orderNumber">-</span>
+            </div>
+          </div>
+
+          <div class="selected-package">
+            <h3>Paket Terpilih: <span id="selectedPackage"></span></h3>
+            <p class="package-price">Rp <span id="selectedPrice"></span></p>
+          </div>
+
+          <form id="orderForm">
+            <!-- Personal Info -->
+            <div class="form-section">
+              <h4><i class="fa-solid fa-user"></i> Data Pelanggan</h4>
+
+              <div class="form-group">
+                <label for="nama"
+                  >Nama Lengkap <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                  required
+                  placeholder="Masukkan nama lengkap Anda"
+                />
+                <span class="error-message" id="namaError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="email@example.com"
+                />
+                <span class="error-message" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="noHp"
+                  >Nomor WhatsApp <span class="required">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="noHp"
+                  name="noHp"
+                  required
+                  placeholder="08xxxxxxxxxx"
+                  pattern="[0-9]+"
+                />
+                <span class="error-message" id="noHpError"></span>
+                <small class="form-hint"
+                  >Format: 08xxxxxxxxxx (hanya angka)</small
+                >
+              </div>
+            </div>
+
+            <!-- Project Details -->
+            <div class="form-section">
+              <h4><i class="fa-solid fa-palette"></i> Detail Proyek</h4>
+
+              <div class="form-group">
+                <label for="jenisDesain"
+                  >Jenis Desain <span class="required">*</span></label
+                >
+                <select id="jenisDesain" name="jenisDesain" required>
+                  <option value="">Pilih jenis desain</option>
+                  <option value="Logo">Logo</option>
+                  <option value="Banner">Banner</option>
+                  <option value="Poster">Poster</option>
+                  <option value="Flyer">Flyer</option>
+                  <option value="Social Media Post">Social Media Post</option>
+                  <option value="Business Card">Kartu Nama</option>
+                  <option value="Brochure">Brosur</option>
+                  <option value="Lainnya">Lainnya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="deskripsi"
+                  >Deskripsi Proyek <span class="required">*</span></label
+                >
+                <textarea
+                  id="deskripsi"
+                  name="deskripsi"
+                  rows="4"
+                  required
+                  placeholder="Jelaskan kebutuhan desain Anda (tema, warna preferensi, target audience, dll)"
+                ></textarea>
+              </div>
+
+              <!-- NEW: File Upload -->
+              <div class="form-group">
+                <label for="referenceFile">Upload Referensi (Opsional)</label>
+                <div class="file-upload-wrapper">
+                  <input
+                    type="file"
+                    id="referenceFile"
+                    name="referenceFile"
+                    accept="image/*,.pdf,.doc,.docx"
+                    multiple
+                  />
+                  <label for="referenceFile" class="file-upload-label">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>Pilih File atau Drag & Drop</span>
+                    <small>Format: JPG, PNG, PDF, DOC (Max 5MB per file)</small>
+                  </label>
+                  <div class="file-list" id="fileList"></div>
+                </div>
+              </div>
+
+              <!-- NEW: Deadline -->
+              <div class="form-group">
+                <label for="deadline">Deadline Pengerjaan (Opsional)</label>
+                <input type="date" id="deadline" name="deadline" min="" />
+                <small class="form-hint"
+                  >Jika tidak diisi, akan mengikuti estimasi paket</small
+                >
+              </div>
+            </div>
+
+            <!-- Payment Method -->
+            <div class="form-section">
+              <h4><i class="fa-solid fa-credit-card"></i> Metode Pembayaran</h4>
+
+              <div class="payment-method-single">
+                <div class="payment-card-single">
+                  <i class="fa-solid fa-qrcode"></i>
+                  <div>
+                    <strong>QRIS</strong>
+                    <p>Pembayaran menggunakan QRIS - Scan & Pay</p>
+                    <small
+                      >Tersedia di: GoPay, OVO, DANA, ShopeePay, dan semua
+                      aplikasi e-wallet</small
+                    >
+                  </div>
+                </div>
+              </div>
+              <input type="hidden" name="metode" value="QRIS" />
+            </div>
+
+            <!-- NEW: Terms & Conditions -->
+            <div class="form-group">
+              <label class="checkbox-container">
+                <input type="checkbox" id="agreeTerms" required />
+                <span class="checkbox-label">
+                  Saya setuju dengan
+                  <a href="#" onclick="showTerms(event)">Syarat & Ketentuan</a>
+                  dan
+                  <a href="#" onclick="showPrivacy(event)">Kebijakan Privasi</a>
+                  <span class="required">*</span>
+                </span>
+              </label>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="order-summary">
+              <h4>Ringkasan Pesanan</h4>
+              <div class="summary-row">
+                <span>Paket:</span>
+                <strong id="summaryPackage">-</strong>
+              </div>
+              <div class="summary-row">
+                <span>Harga:</span>
+                <strong id="summaryPrice">Rp -</strong>
+              </div>
+              <div class="summary-row total">
+                <span>Total Pembayaran:</span>
+                <strong id="summaryTotal">Rp -</strong>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <i class="fa-solid fa-paper-plane"></i> Lanjutkan ke Pembayaran
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Payment Modal - UPGRADED -->
+    <div class="payment-overlay" id="paymentOverlay">
+      <div class="payment-modal">
+        <div class="payment-header">
+          <h2><i class="fa-solid fa-credit-card"></i> Pembayaran</h2>
+          <i class="fa-solid fa-xmark" onclick="closePayment()"></i>
+        </div>
+
+        <div class="payment-body">
+          <!-- Payment Timer -->
+          <div class="payment-timer">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <span>Selesaikan pembayaran dalam</span>
+              <span class="timer-countdown" id="paymentTimer">23:59:45</span>
+            </div>
+          </div>
+
+          <div class="payment-info">
+            <h3>Detail Pembayaran</h3>
+            <div class="payment-detail">
+              <span>No. Pesanan:</span>
+              <strong id="paymentOrderNumber">-</strong>
+            </div>
+            <div class="payment-detail">
+              <span>Paket:</span>
+              <strong id="paymentPackage"></strong>
+            </div>
+            <div class="payment-detail">
+              <span>Total Pembayaran:</span>
+              <strong class="payment-amount" id="paymentAmount"></strong>
+            </div>
+          </div>
+
+          <!-- Dynamic Payment Content -->
+          <div id="paymentContent">
+            <!-- Content will be loaded based on payment method -->
+          </div>
+
+          <!-- Upload Payment Proof -->
+          <div class="payment-proof-section">
+            <h4>
+              <i class="fa-solid fa-file-invoice"></i> Upload Bukti Pembayaran
+            </h4>
+            <div class="file-upload-wrapper">
+              <input type="file" id="paymentProof" accept="image/*" />
+              <label for="paymentProof" class="file-upload-label">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <span>Pilih Bukti Transfer</span>
+                <small>Format: JPG, PNG (Max 2MB)</small>
+              </label>
+              <div class="proof-preview" id="proofPreview"></div>
+            </div>
+          </div>
+
+          <div class="payment-confirmation">
+            <label class="checkbox-container">
+              <input type="checkbox" id="paymentConfirm" />
+              <span class="checkbox-label"
+                >Saya sudah melakukan pembayaran</span
+              >
+            </label>
+          </div>
+
+          <button
+            class="confirm-payment-btn"
+            id="confirmPaymentBtn"
+            disabled
+            onclick="confirmPayment()"
+          >
+            <i class="fa-solid fa-check-circle"></i> Konfirmasi Pembayaran
+          </button>
+
+          <p class="payment-note">
+            <i class="fa-solid fa-shield-halved"></i>
+            Pembayaran Anda aman dan terenkripsi
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="success-overlay" id="successOverlay">
+      <div class="success-modal">
+        <div class="success-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <h2>Pesanan Berhasil Dikirim!</h2>
+        <p>Nomor pesanan Anda: <strong id="successOrderNumber"></strong></p>
+        <p>
+          Kami akan segera memproses pesanan Anda dan menghubungi via WhatsApp.
+        </p>
+        <p class="success-email">
+          Email konfirmasi telah dikirim ke <strong id="successEmail"></strong>
+        </p>
+        <button class="success-btn" onclick="closeSuccess()">
+          <i class="fa-solid fa-home"></i> Kembali ke Beranda
+        </button>
+        <button class="track-btn" onclick="trackOrder()">
+          <i class="fa-solid fa-magnifying-glass"></i> Lacak Pesanan
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loading-spinner"></div>
+      <p>Memproses pesanan Anda...</p>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <img src="img/logo.png" alt="Templay Logo" />
+            <p>Jasa desain profesional dengan harga terjangkau</p>
+          </div>
+          <div class="footer-right">
+            <h4>Main Menu</h4>
+            <ul>
+              <li><a href="index.html#beranda">Beranda</a></li>
+              <li><a href="index.html#layanan">Layanan</a></li>
+              <li><a href="index.html#harga">Harga</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Templay. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

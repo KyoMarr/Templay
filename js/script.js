@@ -145,7 +145,7 @@ async function submitViaAppsScript(orderData, proofFile) {
     // GANTI URL INI DENGAN URL APPS SCRIPT ANDA
     // GANTI URL INI dengan URL dari STEP 2.6
     const APPS_SCRIPT_URL =
-      "https://script.google.com/macros/s/AKfycbzkmJ-r2X3nhZxi8PbrQfHjZaHTig-w7Z81IKBOoB-x_cJUhvbDt-KEntLcfVEgfJc/exec";
+      "https://script.google.com/macros/s/AKfycbxKhoH9ey7kq1yj5f-5tGx-PeUeHi501tWL4Kt-mJ-GseDwEJT80_2nnsol_q88FCxr/exec";
 
     const response = await fetch(APPS_SCRIPT_URL, {
       method: "POST",
@@ -896,3 +896,4 @@ window.addEventListener("load", function () {
 window.addEventListener("hashchange", function () {
   setTimeout(checkVisibleElements, 300);
 });
+
